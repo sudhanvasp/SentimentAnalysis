@@ -1,3 +1,4 @@
 # SentimentAnalysis
-Sentiment analysis with NLTK (folder 79)
-Sentiment analysis with Roberta (folder 159)
+Sentiment analysis with NLTK (Folder 79) 
+Sentiment analysis with Roberta (Folder 159)
+Sentiment analysis with Roberta+SUS (Folder 209)
