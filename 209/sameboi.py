@@ -17,8 +17,6 @@ def preprocess(tweet):
 # load model and tokenizer
 #roberta = "cardiffnlp/twitter-roberta-base-sentiment" this is the base model
 roberta = "sudhanvasp/Sentiment-Analysis" #this is the custom model that utilizes the base model with additional parameters to improve accuracy and performance
-
-
 model = AutoModelForSequenceClassification.from_pretrained(roberta)
 tokenizer = AutoTokenizer.from_pretrained(roberta)
 
@@ -40,10 +38,7 @@ def sentiment(encoded_tweet):
         print("\n\n")
         print("In detail: ")
         return results
-
-       
-
-        
+#input tweet
 for i in range(0,5):
     tweet = input("Enter a tweet: ")
     tweet_proc = preprocess(tweet)
