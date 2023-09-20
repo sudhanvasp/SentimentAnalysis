@@ -1,0 +1,1 @@
+This is able to provide positive,negative and neutral as it's output. Yet to add a way to pull in the tweets. Someone do that part
