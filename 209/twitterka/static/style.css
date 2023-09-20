@@ -2,24 +2,33 @@
 body, h1, p {
     margin: 0;
     padding: 0;
+    color: #fff;
 }
 
 /* Basic styling for the body */
 body {
     font-family: Arial, sans-serif;
-    background-color: #ff9999;
     margin: 0;
     padding: 0;
+}
+
+.container-fluid {
+    height: 100vh;
+    background: url(background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.formbox {
+    margin-top: 100px;
 }
 
 /* Header styles */
 h1 {
     text-align: center;
-    color: #333;
+    color: #fff;
     padding: 20px 0;
-    background-color: #007bff;
     margin-bottom: 30px;
-    font-size: 36px;
 }
 
 /* Form container */
@@ -50,7 +59,7 @@ textarea {
 
 /* Submit button */
 button[type="submit"] {
-    background-color: #ff9999;
+    background-color: #0047ab;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -58,17 +67,23 @@ button[type="submit"] {
     border-radius: 5px;
     font-size: 16px;
     margin-top: 10px;
+    margin-left: 230px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0096ff;
 }
 
 /* Analysis result container */
 .result {
+    padding: 120px 550px 50px;
     margin-top: 20px;
+    color: #fff;
 }
 
 /* Analysis result styles */
 h2 {
-    color: #007bff;
-    font-size: 24px;
+    color: #fff;
     margin-bottom: 10px;
 }
 
@@ -76,6 +91,7 @@ h2 {
 footer {
     text-align: center;
     padding: 20px 0;
-    background-color: #007bff;
+    background-color: #fff;
     color: #fff;
 }
+
