@@ -1,7 +1,7 @@
 # SentimentAnalysis
 Sentiment analysis with NLTK (Folder 79) 
 Sentiment analysis with Roberta (Folder 159)
-Sentiment analysis with Roberta+SUS (Folder 209)
+Sentiment analysis with Roberta+Awk (Folder 209)
 Sentiment analysis with Roberta+Gradio (Folder 219)
 
 <!-- MARKER: Start of README -->
@@ -82,13 +82,14 @@ The primary aim of this project is to explore the intricate relationship between
    pip install gradio
    import gradio as gr
 
-2. Run the given gradio code.
+2. Run the given gradio code in the Folder 219.
 ## Hosting with FLASK
 
 1. *Install FLASK:*
    ```bash
    pip install flask
-   cd Directory
+   cd 209
+   cd twitterka
    python app.py 
 
 2. Open the IP given address.
