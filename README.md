@@ -1,7 +1,8 @@
 # SentimentAnalysis
 Sentiment analysis with NLTK (Folder 79) 
 Sentiment analysis with Roberta (Folder 159)
-Sentiment analysis with Roberta+SUS (Folder 209)
+Sentiment analysis with Roberta+Awk (Folder 209)
+Sentiment analysis with Roberta+Gradio (Folder 219)
 
 <!-- MARKER: Start of README -->
 
@@ -23,6 +24,7 @@ Sentiment analysis with Roberta+SUS (Folder 209)
 - [Sentiment Analysis](#sentiment-analysis)
 - [Machine Learning Model](#machine-learning-model)
 - [Running the Model](#running-the-model)
+- [Huggingface](https://huggingface.co/sudhanvasp/Sentiment-Analysis)
 - [Results and Insights](#results-and-insights)
 - [License](#license)
 
@@ -81,23 +83,28 @@ The primary aim of this project is to explore the intricate relationship between
    pip install gradio
    import gradio as gr
 
-2. Run the given gradio code.
+2. Run the given gradio code in the Folder 219.
 ## Hosting with FLASK
 
 1. *Install FLASK:*
    ```bash
    pip install flask
-   cd Directory
+   cd 209
+   cd twitterka
    python app.py 
 
 2. Open the IP given address.
+<!-- MARKER: Project Description -->
+
+## Huggingface Page
+- Execution of the model can be done directly on Huggingface as well
 
 
 <!-- MARKER: Results and Insights-->
 
 ## Results and Insights
 
-- Our ensemble model boasts an impressive 78% accuracy in sentiment analysis and a remarkably low Mean Absolute Error (MAE) of 2.5% in stock price prediction.
+- Our ensemble model boasts an impressive 96% accuracy in sentiment analysis.
 - Notably, positive sentiment tweets correlate positively with stock price increases, while negative sentiment tweets correlate negatively with decreases. Neutral sentiment, while present, exhibits a weaker influence on stock price movements.
 
   
