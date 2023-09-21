@@ -77,21 +77,4 @@ The primary aim of this project is to explore the intricate relationship between
    pip install gradio
    import gradio as gr
 
-2. *Create a Gradio Interface*
-   ```bash
-   def predict_sentiment(text):
-       # Your model loading and prediction code here
-       sentiment = model.predict(text)
-       return sentiment
-   
-   iface = gr.Interface(
-       fn=predict_sentiment,
-       inputs="text",
-       outputs="text",
-       title="Stock Sentiment Analysis",
-       description="Enter a tweet to analyze its sentiment.",
-   )
-
-3. *Launch the Gradio Interface*
-   ```bash
-   iface.launch()
+2. Run the given gradio code.
