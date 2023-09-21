@@ -7,7 +7,7 @@ Sentiment analysis with Roberta+SUS (Folder 209)
 
 # Stock Sentiment Analysis of Tweets using RoBERTa
 
-![media/1.jpeg](./media/1.jpeg)(media/2.jpeg)(media/3.jpeg)(media/4.jpeg)(media/5.jpeg)
+![./media/1.jpeg](./media/1.jpeg)(media/2.jpeg)(media/3.jpeg)(media/4.jpeg)(media/5.jpeg)
 
 ## Table of Contents
 
