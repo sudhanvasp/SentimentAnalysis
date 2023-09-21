@@ -24,6 +24,7 @@ Sentiment analysis with Roberta+Gradio (Folder 219)
 - [Sentiment Analysis](#sentiment-analysis)
 - [Machine Learning Model](#machine-learning-model)
 - [Running the Model](#running-the-model)
+- [Huggingface](https://huggingface.co/sudhanvasp/Sentiment-Analysis)
 - [Results and Insights](#results-and-insights)
 - [License](#license)
 
@@ -93,6 +94,10 @@ The primary aim of this project is to explore the intricate relationship between
    python app.py 
 
 2. Open the IP given address.
+<!-- MARKER: Project Description -->
+
+## Huggingface Page
+- Execution of the model can be done directly on Huggingface as well
 
 
 <!-- MARKER: Results and Insights-->
