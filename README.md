@@ -111,5 +111,5 @@ The primary aim of this project is to explore the intricate relationship between
   
 <!-- MARKER: License-->
 ## License
-
+- Do whatever you want with this repo
 - This created by the team "The Lost Pendrive" (Sudhanva SP, Deepa Umesh, Chinmayi Rajaram)
