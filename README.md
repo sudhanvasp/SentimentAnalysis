@@ -77,6 +77,16 @@ The primary aim of this project is to explore the intricate relationship between
    import gradio as gr
 
 2. Run the given gradio code.
+## Hosting with FLASK
+
+1. *Install FLASK:*
+   ```bash
+   pip install flask
+   cd Directory
+   python app.py 
+
+2. Run the given gradio code.
+
 
 <!-- MARKER: Results and Insights-->
 
