@@ -98,6 +98,7 @@ The primary aim of this project is to explore the intricate relationship between
 
 ## Huggingface Page
 - Execution of the model can be done directly on Huggingface as well
+- [Huggingface](https://huggingface.co/sudhanvasp/Sentiment-Analysis)
 
 
 <!-- MARKER: Results and Insights-->
