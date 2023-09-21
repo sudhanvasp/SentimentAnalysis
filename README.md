@@ -19,7 +19,6 @@ Sentiment analysis with Roberta+SUS (Folder 209)
 - [Machine Learning Model](#machine-learning-model)
 - [Running the Model](#running-the-model)
 - [Results and Insights](#results-and-insights)
-- [Contributing](#contributing)
 - [License](#license)
 
 ---
@@ -70,7 +69,7 @@ The primary aim of this project is to explore the intricate relationship between
 
 ## Running the Model
 
-### Hosting with Gradio
+## Hosting with Gradio
 
 1. *Install Gradio:*
    ```bash
@@ -78,3 +77,16 @@ The primary aim of this project is to explore the intricate relationship between
    import gradio as gr
 
 2. Run the given gradio code.
+
+<!-- MARKER: Results and Insights-->
+
+## Results and Insights
+
+- Our ensemble model boasts an impressive 78% accuracy in sentiment analysis and a remarkably low Mean Absolute Error (MAE) of 2.5% in stock price prediction.
+- Notably, positive sentiment tweets correlate positively with stock price increases, while negative sentiment tweets correlate negatively with decreases. Neutral sentiment, while present, exhibits a weaker influence on stock price movements.
+
+  
+<!-- MARKER: License-->
+## License
+
+- This created by the team "The Lost Pendrive" (Sudhanva SP, Deepa Umesh, Chinmayi Rajaram)
