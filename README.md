@@ -85,7 +85,7 @@ The primary aim of this project is to explore the intricate relationship between
    cd Directory
    python app.py 
 
-2. Run the given gradio code.
+2. Open the IP given address.
 
 
 <!-- MARKER: Results and Insights-->
