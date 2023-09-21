@@ -97,7 +97,7 @@ The primary aim of this project is to explore the intricate relationship between
 
 ## Results and Insights
 
-- Our ensemble model boasts an impressive 78% accuracy in sentiment analysis and a remarkably low Mean Absolute Error (MAE) of 2.5% in stock price prediction.
+- Our ensemble model boasts an impressive 96% accuracy in sentiment analysis.
 - Notably, positive sentiment tweets correlate positively with stock price increases, while negative sentiment tweets correlate negatively with decreases. Neutral sentiment, while present, exhibits a weaker influence on stock price movements.
 
   
