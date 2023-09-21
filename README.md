@@ -42,28 +42,28 @@ The primary aim of this project is to explore the intricate relationship between
 
 - *Hypothesis 1:* Tweets with a positive sentiment will exhibit a positive correlation with stock price increases.
 - *Hypothesis 2:* Tweets with a negative sentiment will display a negative correlation with stock price decreases.
-- *Hypothesis 3:* RoBERTa-based sentiment analysis can be a potent tool for predicting short-term stock price movements.
+- *Hypothesis 3:* Tweets with a neutral sentiment will display a neutral correlation with stock price.
 
 <!-- MARKER: Data Collection -->
 
 ## Data Collection
 
-- We meticulously gathered Twitter data spanning a year from financial news and analyst accounts.
-- Rigorous data preprocessing was performed, encompassing deduplication, tokenization, and sentiment label encoding (positive, negative, neutral).
+- We meticulously gathered Twitter data from financial news and analyst accounts.
+- Data preprocessing was performed, encompassing deduplication, tokenization, and sentiment label encoding (positive, negative, neutral).
 
 <!-- MARKER: Sentiment Analysis -->
 
 ## Sentiment Analysis
 
-- Harnessing RoBERTa, a state-of-the-art transformer-based model, we assigned sentiment scores, ranging from -1 (negative) to 1 (positive), to individual tweets.
-- Challenges such as domain-specific sentiment expressions and model fine-tuning were addressed meticulously.
+- Harnessing RoBERTa, a state-of-the-art transformer-based model, we assigned sentiment scores.
+- Challenges such as domain-specific sentiment expressions and model fine-tuning were addressed.
 
 <!-- MARKER: Machine Learning Model -->
 
 ## Machine Learning Model
 
-- Our model is a robust ensemble of RoBERTa and Random Forest algorithms.
-- Features encompass RoBERTa-generated sentiment scores, tweet volume, and historical stock price data.
+- Our model is a robust ensemble of RoBERTa.
+- Features encompass RoBERTa-generated F1 scores, tweet volume, and historical stock price data.
 - This amalgamation empowers us to capture both sequential dependencies and non-linear relationships effectively.
 
 <!-- MARKER: Running the Model -->
