@@ -107,6 +107,7 @@ The primary aim of this project is to explore the intricate relationship between
 
 - Our ensemble model boasts an impressive 96% accuracy in sentiment analysis.
 - Notably, positive sentiment tweets correlate positively with stock price increases, while negative sentiment tweets correlate negatively with decreases. Neutral sentiment, while present, exhibits a weaker influence on stock price movements.
+- [https://colab.research.google.com/drive/1QLYEc9wnKXpcCFsa_FLh8Uj-XAOV9jW4?usp=sharing](https://colab.research.google.com/drive/1QLYEc9wnKXpcCFsa_FLh8Uj-XAOV9jW4?usp=sharing)
 
   
 <!-- MARKER: License-->
